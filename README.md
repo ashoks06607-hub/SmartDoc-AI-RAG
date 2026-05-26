@@ -175,7 +175,7 @@ Streamlit automatically redeploys the latest version of the project after new co
 ## 1. Clone the Repository
 
 ```bash
-git clone [INSERT GITHUB REPOSITORY LINK]
+git clone https://github.com/ashoks06607-hub/LLM-Hallucination-Detection-System.git
 ```
 
 ---
