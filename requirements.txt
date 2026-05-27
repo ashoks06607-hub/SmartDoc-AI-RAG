@@ -4,6 +4,6 @@ faiss-cpu
 PyPDF2
 numpy
 scikit-learn
-google-generativeai
+openai
 torch
 transformers

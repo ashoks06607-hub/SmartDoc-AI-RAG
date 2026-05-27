@@ -3,7 +3,7 @@ from utils.pdf_loader import load_pdf
 from utils.chunking import chunk_text
 from utils.embeddings import (create_embeddings,model)
 from utils.retrieval import (create_vector_store,retrieve_chunks)
-from utils.llm_gemini import generate_answer
+from utils.llm_grok import generate_answer
 from utils.grounding import (check_grounding)
 
 
