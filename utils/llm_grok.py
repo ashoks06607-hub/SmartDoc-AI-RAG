@@ -27,6 +27,6 @@ def generate_answer(question, context):
 
     response = client.chat.completions.create(
 
-        model="grok-beta",messages=[{"role": "user","content": prompt}],temperature=0)
+        model="grok-2-latest",messages=[{"role": "user","content": prompt}],temperature=0)
 
     return response.choices[0].message.content
