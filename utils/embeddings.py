@@ -1,11 +1,12 @@
-from sentence_transformers import SentenceTransformer  # Imports embedding model class
+from sentence_transformers import SentenceTransformer
+import numpy as np
 
-
-model = SentenceTransformer('all-MiniLM-L6-v2')    #This is NOT an LLM. This model ONLY creates embeddings.
+# Load embedding model
+model = SentenceTransformer('all-MiniLM-L6-v2')
 
 
 def create_embeddings(chunks):
 
-    embeddings = model.encode(chunks)  # This converts our text chunks into vectors (embeddings).
+    embeddings = model.encode(chunks)
 
-    return embeddings
+    return np.array(embeddings)
